@@ -12,7 +12,7 @@ follower system for laravel, one model can follow another model.
 You can install the package using composer
 
 ```sh
-$ composer require wimil/laravel-followers
+$ composer require wimil/followers
 ```
 
 Then add the service provider to `config/app.php`
