@@ -1,0 +1,43 @@
+{
+    "name": "wimil/followers",
+    "description": "Follow and followers for laravel eloquent",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Reynaldo",
+            "email": "rldev25@gmail.com"
+        }
+    ],
+    "keywords": [
+        "followers",
+        "following",
+        "laravel-followers",
+        "laravel-follow",
+        "system followers",
+        "follow"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wimil\\Followers\\": "src/"
+        },
+        "classmap": [
+            "src/Facades"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wimil\\Followers\\Provider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "^5.5|~6.0|~7.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "~8.0"
+    }
+}
