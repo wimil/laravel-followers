@@ -121,7 +121,7 @@ $page->isFollowedBy($user);
 **If you want to have your own Follower Model create a new one and extend my Follower model.**
 
 ```php
-use Wimil\Follow\Model\FollowModel as BaseFollower;
+use Wimil\Followers\Model\Follower as BaseFollower;
 
 class Follower extends BaseFollower
 {
